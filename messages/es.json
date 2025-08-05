@@ -18,38 +18,39 @@
     "loggingOut": "Cerrando sesión..."
   },
   "hero": {
-    "liveMarkets": "Mercados en Vivo",
-    "Advanced": "Análisis avanzado",
-    "USD":"Par de trading del USD",
-    "nextGen": "Nueva Generación",
-    "trading": "Finanzas",
-    "platform": "Soluciones",
-    "description": "Experimenta el futuro del trading de activos digitales con nuestra plataforma impulsada por IA. Algoritmos avanzados, seguridad de grado institucional y ejecución ultrarrápida diseñada para el trader moderno.",
-    "startTrading": "Comenzar a Operar",
-    "viewDemo": "Ver Demo",
-    "specs": {
-      "execution": "Ejecución en submilisegundos",
-      "uptime": "99.99% tiempo activo",
-      "grade": "Grado institucional"
-    },
-    "stats": {
-      "volume": "Volumen Diario",
-      "traders": "Traders Activos",
-      "fees": "Comisiones de Trading"
-    },
-    "marketFeed": "Feed del Mercado",
-    "live": "En Vivo",
-    "loading": {
-      "title": "Conectando al feed del mercado",
-      "sub": "Obteniendo datos en tiempo real..."
-    },
-    "error": {
-      "title": "Error de Conexión",
-      "sub": "Intentando reconectar..."
-    },
-    "updated": "Actualizado",
-    "volume": "Volumen"
+  "liveMarkets": "Vista Instantánea",
+  "Advanced": "Herramientas Estratégicas",
+  "USD": "Mercados en USD",
+  "nextGen": "Innovador",
+  "trading": "Activos Digitales",
+  "platform": "Motor Principal",
+  "description": "Explora un entorno de trading inteligente con IA avanzada. Rápido, seguro y diseñado para rendimiento óptimo.",
+  "startTrading": "Iniciar Trading",
+  "viewDemo": "Explorar Plataforma",
+  "specs": {
+    "execution": "Ejecución veloz",
+    "uptime": "Disponibilidad total",
+    "grade": "Tecnología profesional"
   },
+  "stats": {
+    "volume": "Volumen Operado",
+    "traders": "Usuarios Globales",
+    "fees": "Resumen de Tarifas"
+  },
+  "marketFeed": "Datos en Vivo",
+  "live": "Tiempo Real",
+  "loading": {
+    "title": "Cargando flujo de datos",
+    "sub": "Obteniendo métricas..."
+  },
+  "error": {
+    "title": "Fallo de conexión",
+    "sub": "Reconectando..."
+  },
+  "updated": "Sincronizado",
+  "volume": "Movimientos"
+}
+,
   "trade": {
     "badge": "Características de la Plataforma",
     "title": {

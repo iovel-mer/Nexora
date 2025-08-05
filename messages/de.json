@@ -18,38 +18,39 @@
     "loggingOut": "Abmeldung läuft..."
   },
   "hero": {
-    "liveMarkets": "Live-Märkte",
-    "Advanced": "Erweiterte Analyse",
-    "USD":"USD Handelspaar",
-    "nextGen": "Elegante",
-    "trading": "Finanzlösungen",
-    "platform": "Lösungen",
-    "description": "Erleben Sie die Zukunft des digitalen Asset-Handels mit unserer KI-gestützten Plattform. Fortschrittliche Algorithmen, institutionelle Sicherheit und blitzschnelle Ausführung für den modernen Trader.",
-    "startTrading": "Jetzt handeln",
-    "viewDemo": "Demo ansehen",
-    "specs": {
-      "execution": "Ausführung unter einer Millisekunde",
-      "uptime": "99,99% Verfügbarkeit",
-      "grade": "Institutionelle Qualität"
-    },
-    "stats": {
-      "volume": "Tägliches Volumen",
-      "traders": "Aktive Trader",
-      "fees": "Handelsgebühren"
-    },
-    "marketFeed": "Marktfeed",
-    "live": "Live",
-    "loading": {
-      "title": "Verbindung zum Marktfeed wird hergestellt",
-      "sub": "Echtzeitdaten werden abgerufen..."
-    },
-    "error": {
-      "title": "Verbindungsfehler",
-      "sub": "Wiederverbindung wird versucht..."
-    },
-    "updated": "Aktualisiert",
-    "volume": "Volumen"
+  "liveMarkets": "Aktuelle Marktdaten",
+  "Advanced": "Erweiterte Funktionen",
+  "USD": "USD-Marktoptionen",
+  "nextGen": "Hochmodern",
+  "trading": "Digitale Anlagen",
+  "platform": "Technologiezentrum",
+  "description": "Nutzen Sie die Kraft moderner KI für schnellen, sicheren und leistungsstarken Handel mit digitalen Vermögenswerten.",
+  "startTrading": "Jetzt Loslegen",
+  "viewDemo": "Plattform Vorschau",
+  "specs": {
+    "execution": "Extrem schnelle Abwicklung",
+    "uptime": "Stabile Betriebszeit",
+    "grade": "Expertenlösung"
   },
+  "stats": {
+    "volume": "Handelsvolumen",
+    "traders": "Weltweite Nutzer",
+    "fees": "Gebührenübersicht"
+  },
+  "marketFeed": "Live-Marktdaten",
+  "live": "Echtzeit",
+  "loading": {
+    "title": "Verbindung zum Datenstrom",
+    "sub": "Lade aktuelle Informationen..."
+  },
+  "error": {
+    "title": "Verbindungsfehler",
+    "sub": "Versuche Wiederverbindung..."
+  },
+  "updated": "Aktualisiert",
+  "volume": "Marktbewegung"
+}
+,
   "trade": {
     "badge": "Plattformfunktionen",
     "title": {
