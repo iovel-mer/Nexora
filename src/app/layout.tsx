@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Nexora",
+  title: "NEXORA",
   description: "Advanced trading platform with secure authentication and real-time trading capabilities",
 }
 

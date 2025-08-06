@@ -69,15 +69,17 @@ const ContactPage = () => {
     <>
       <Header />
       <div className="min-h-screen py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 relative overflow-hidden">
-        {/* Background Grid */}
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(251,146,60,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(251,146,60,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none" />
-
-        {/* Crypto Background Effects */}
-        <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(251,146,60,0.15),transparent_50%)]"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_75%,rgba(245,158,11,0.15),transparent_50%)]"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(249,115,22,0.1),transparent_60%)]"></div>
-        </div>
+        <div className='flex justify-start mt-6'>
+                <Link
+                  href="/"
+                  className='inline-flex items-center px-6 py-3 bg-slate-900/60 backdrop-blur-sm rounded-full border-2 border-orange-400/30 hover:bg-slate-800/60 hover:border-orange-400/50 transition-all duration-300 group text-sm font-mono font-bold text-white shadow-[0_0_20px_rgba(251,146,60,0.2)]'
+                >
+                  <Home className='h-4 w-4 mr-2 group-hover:-translate-x-1 transition-transform duration-300 text-orange-400' />
+                  {t('backToHome')}
+                  <ArrowRight className='h-4 w-4 ml-2 rotate-180 group-hover:-translate-x-1 transition-transform duration-300 text-orange-400' />
+                </Link>
+              </div>
+       
 
         {/* Floating Elements */}
         <div className="absolute top-20 right-16 w-48 h-48 bg-gradient-to-br from-orange-500/30 to-amber-500/30 rounded-full blur-3xl animate-pulse"></div>
@@ -90,20 +92,11 @@ const ContactPage = () => {
         <div className="absolute bottom-60 left-1/3 w-1.5 h-1.5 bg-yellow-400 rounded-full animate-bounce opacity-60" style={{animationDelay: '1s'}}></div>
 
         <div className="max-w-5xl mx-auto relative z-10">
-          {/* Back to Home Link */}
-          <div className='flex justify-start mb-12'>
-             <Link
-                  href="/"
-                  className='inline-flex items-center px-6 py-3 bg-slate-900/60 backdrop-blur-sm rounded-full border-2 border-orange-400/30 hover:bg-slate-800/60 hover:border-orange-400/50 transition-all duration-300 group text-sm font-mono font-bold text-white shadow-[0_0_20px_rgba(251,146,60,0.2)]'
-                >
-                  <Home className='h-4 w-4 mr-2 group-hover:-translate-x-1 transition-transform duration-300 text-orange-400' />
-                  {t('backToHome')}
-                  <ArrowRight className='h-4 w-4 ml-2 rotate-180 group-hover:-translate-x-1 transition-transform duration-300 text-orange-400' />
-                </Link>
-          </div>
+          
+          
 
           {/* Hero Section */}
-          <div className="text-center mb-20">
+          <div className="text-center mb-20 mt-10">
             <h1 className="text-6xl sm:text-7xl font-black mb-6 bg-gradient-to-r from-white via-orange-200 to-amber-200 bg-clip-text text-transparent leading-tight uppercase font-mono drop-shadow-[0_0_30px_rgba(251,146,60,0.4)]">
               {t("title")}
             </h1>

@@ -12,8 +12,17 @@ const PrivacyPolicyPage = () => {
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 relative overflow-hidden">
-        
+      <div className="min-h-screen px-8 bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 relative overflow-hidden">
+          <div className='flex justify-start mt-10'>
+                <Link
+                  href="/"
+                  className='inline-flex items-center px-6 py-3 bg-slate-900/60 backdrop-blur-sm rounded-full border-2 border-orange-400/30 hover:bg-slate-800/60 hover:border-orange-400/50 transition-all duration-300 group text-sm font-mono font-bold text-white shadow-[0_0_20px_rgba(251,146,60,0.2)]'
+                >
+                  <Home className='h-4 w-4 mr-2 group-hover:-translate-x-1 transition-transform duration-300 text-orange-400' />
+                  {t('backToHome')}
+                  <ArrowRight className='h-4 w-4 ml-2 rotate-180 group-hover:-translate-x-1 transition-transform duration-300 text-orange-400' />
+                </Link>
+              </div>
         {/* Background Grid */}
         <div className="absolute inset-0 bg-[linear-gradient(rgba(251,146,60,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(251,146,60,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none"></div>
         
@@ -31,14 +40,7 @@ const PrivacyPolicyPage = () => {
             
             {/* Header Section */}
             <div className="mb-12">
-              <Link 
-                href="/" 
-                className='inline-flex items-center px-6 py-3 bg-slate-900/60 backdrop-blur-xl rounded-2xl border-2 border-orange-400/30 hover:bg-slate-800/60 hover:border-orange-400/50 transition-all duration-300 group text-sm font-mono font-bold text-white shadow-[0_0_20px_rgba(251,146,60,0.2)] mb-8'
-              >
-                <Home className='h-5 w-5 mr-3 group-hover:scale-110 transition-transform duration-300 text-orange-400' />
-                <span>{t('backToHome')}</span>
-                <ArrowRight className='h-5 w-5 ml-3 rotate-180 group-hover:scale-110 transition-transform duration-300 text-orange-400' />
-              </Link>
+              
               
               <div className="text-center mb-8">
                 <h1 className="text-5xl md:text-6xl font-black mb-4 bg-gradient-to-r from-white via-orange-200 to-amber-200 bg-clip-text text-transparent uppercase font-mono drop-shadow-[0_0_30px_rgba(251,146,60,0.4)]">

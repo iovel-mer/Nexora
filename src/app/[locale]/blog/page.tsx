@@ -46,8 +46,8 @@ const Page = () => {
       <div className="absolute top-60 right-60 w-1 h-1 bg-amber-400 rounded-full animate-bounce opacity-60" style={{animationDelay: '0.5s'}}></div>
       <div className="absolute bottom-60 left-1/3 w-1.5 h-1.5 bg-yellow-400 rounded-full animate-bounce opacity-60" style={{animationDelay: '1s'}}></div>
 
-      <main className="container mx-auto px-4 py-8 md:py-12 lg:py-16">
-        <div className="max-w-6xl mx-auto">
+      <main className="container mx-auto  py-8 md:py-12 lg:py-16">
+        <div className="px-8 mx-auto">
          <Link 
               href="/" 
               className='inline-flex items-center px-6 py-3 mb-14 bg-slate-900/60 backdrop-blur-sm rounded-full border-2 border-orange-400/30 hover:bg-slate-800/60 hover:border-orange-400/50 transition-all duration-300 group text-sm font-mono font-bold text-white shadow-[0_0_20px_rgba(251,146,60,0.2)]'

@@ -33,7 +33,7 @@ export const Header: React.FC = () => {
               </div>
               <div>
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-white via-orange-200 to-amber-200 bg-clip-text text-transparent">
-                  Nexora
+                  NEXORA
                 </h1>
               </div>
             </Link>

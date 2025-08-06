@@ -37,7 +37,7 @@ const page = () => {
               <ArrowRight className='h-4 w-4 ml-2 rotate-180 group-hover:-translate-x-1 transition-transform duration-300 text-orange-400' />
             </Link>
 
-          <div className="max-w-5xl mx-auto mt-8 space-y-12">
+          <div className=" mx-auto mt-8 space-y-12">
             <div className="text-center mb-16">
               <h1 className="text-6xl md:text-7xl font-black mb-6 text-transparent bg-clip-text bg-gradient-to-r from-white via-orange-200 to-amber-200 uppercase font-mono drop-shadow-[0_0_30px_rgba(251,146,60,0.4)]">
                 {t("title")}

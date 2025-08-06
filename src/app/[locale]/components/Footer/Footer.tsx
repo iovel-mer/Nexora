@@ -66,7 +66,7 @@ export default function Footer() {
             <div className='flex gap-4 items-center'>
               <Bitcoin size={24} className="text-white" />
               <span className='text-3xl font-black uppercase tracking-wider bg-gradient-to-r from-orange-400 via-amber-400 to-yellow-400 bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(251,146,60,0.5)]'>
-                Nexora
+                NEXORA
               </span>
             </div>
           </div>
@@ -140,7 +140,7 @@ export default function Footer() {
       </div>
 
       {/* Legal Info Section */}
-      <div className='relative border-2 border-orange-400/30 p-8 mb-12 overflow-hidden shadow-2xl shadow-orange-400/20'
+      <div className='relative  p-8 mb-12 overflow-hidden shadow-2xl shadow-orange-400/20'
         style={{ clipPath: 'polygon(2% 0%, 98% 0%, 100% 15%, 98% 100%, 2% 100%, 0% 85%)' }}>
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-orange-400 to-transparent animate-pulse"></div>
 
@@ -158,7 +158,7 @@ export default function Footer() {
           style={{ clipPath: 'polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%)' }}>
           <span className="text-orange-400 animate-pulse"></span>
           <span className="text-gray-300">
-            © {new Date().getFullYear()} Nexora {tFooter('rights')}
+            © {new Date().getFullYear()} NEXORA {tFooter('rights')}
           </span>
         </div>
       </div>

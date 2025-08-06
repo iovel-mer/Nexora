@@ -78,6 +78,16 @@ const Page = () => {
     <>
       <Header />
       <main className="bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 relative px-4 py-16 sm:px-6 lg:px-8 mx-auto min-h-screen overflow-hidden text-white">
+          <div className='flex justify-start mt-2'>
+                <Link
+                  href="/"
+                  className='inline-flex items-center px-6 py-3 bg-slate-900/60 backdrop-blur-sm rounded-full border-2 border-orange-400/30 hover:bg-slate-800/60 hover:border-orange-400/50 transition-all duration-300 group text-sm font-mono font-bold text-white shadow-[0_0_20px_rgba(251,146,60,0.2)]'
+                >
+                  <Home className='h-4 w-4 mr-2 group-hover:-translate-x-1 transition-transform duration-300 text-orange-400' />
+                  {t('backToHome')}
+                  <ArrowRight className='h-4 w-4 ml-2 rotate-180 group-hover:-translate-x-1 transition-transform duration-300 text-orange-400' />
+                </Link>
+              </div>
         {/* Background Grid */}
         <div className="absolute inset-0 bg-[linear-gradient(rgba(251,146,60,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(251,146,60,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none" />
         
@@ -93,21 +103,10 @@ const Page = () => {
         <div className="absolute bottom-32 left-1/3 w-1.5 h-1.5 bg-yellow-400 rounded-full animate-bounce opacity-60" style={{animationDelay: '1s'}}></div>
 
         {/* Page Content */}
-        <div className="relative z-10 max-w-7xl mx-auto">
+        <div className="relative z-10 max-w-7xl mx-auto mt-16">
           {/* Hero Section */}
           <section className="text-center mb-24">
-            {/* Back to Home Link */}
-            <div className='flex justify-start mb-12'>
-              <Link
-                  href="/"
-                  className='inline-flex items-center px-6 py-3 bg-slate-900/60 backdrop-blur-sm rounded-full border-2 border-orange-400/30 hover:bg-slate-800/60 hover:border-orange-400/50 transition-all duration-300 group text-sm font-mono font-bold text-white shadow-[0_0_20px_rgba(251,146,60,0.2)]'
-                >
-                  <Home className='h-4 w-4 mr-2 group-hover:-translate-x-1 transition-transform duration-300 text-orange-400' />
-                  {t('backToHome')}
-                  <ArrowRight className='h-4 w-4 ml-2 rotate-180 group-hover:-translate-x-1 transition-transform duration-300 text-orange-400' />
-                </Link>
-            </div>
-
+ 
             {/* Hero Badge */}
             <div className="inline-flex items-center px-6 py-3 bg-slate-900/50 backdrop-blur-md rounded-full border-2 border-orange-400/40 mb-8 shadow-[0_0_25px_rgba(251,146,60,0.3)]">
               <Sparkles className="w-5 h-5 mr-2 text-orange-400 animate-pulse" />

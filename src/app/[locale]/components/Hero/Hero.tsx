@@ -119,7 +119,7 @@ export const Hero: React.FC = () => {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Link href={`/${locale}/login`}>
+              <Link href={`/${locale}/register`}>
                 <Button className="group relative overflow-hidden flex items-center gap-3 px-8 py-4 rounded-full text-lg font-bold 
                   bg-slate-800/70 backdrop-blur-sm text-white border border-orange-400/50 shadow-2xl shadow-orange-500/30
                   hover:bg-slate-700/70 hover:border-orange-400/70 hover:shadow-2xl hover:shadow-amber-500/50 hover:scale-110
