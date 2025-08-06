@@ -165,7 +165,7 @@ export const Market: React.FC = () => {
             {marketData.map((coin, index) => (
               <div
                 key={coin.symbol}
-                className="group relative bg-slate-900/60 hover:border-orange-400/70 transition-all duration-500 hover:scale-105 overflow-hidden p-6 shadow-2xl hover:shadow-orange-500/30"
+                className="group relative w-full max-w-[300px] p-4 sm:p-6 bg-slate-900/60 hover:border-orange-400/70 transition-all duration-500 hover:scale-105 overflow-hidden  shadow-2xl hover:shadow-orange-500/30"
                 style={{
                   clipPath: 'polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%)',
                   animationDelay: `${index * 0.1}s`
@@ -189,17 +189,19 @@ export const Market: React.FC = () => {
                       </div>
                     </div>
                     
-                    <div
-                      className={`flex items-center gap-2 px-4 py-2 font-mono text-xs uppercase tracking-wider shadow-lg ${
-                        coin.change >= 0
-                          ? "bg-gradient-to-r from-green-500/30 to-emerald-500/30 text-green-300 border-2 border-green-400/50 shadow-[0_0_15px_rgba(0,255,0,0.3)]"
-                          : "bg-gradient-to-r from-red-500/30 to-pink-500/30 text-red-300 border-2 border-red-400/50 shadow-[0_0_15px_rgba(255,0,0,0.3)]"
-                      }`}
-                      
-                    >
-                      {coin.change >= 0 ? <TrendingUp className="w-4 h-4" /> : <TrendingDown className="w-4 h-4" />}
-                      {formatChange(coin.change)}
-                    </div>
+                  <div className="flex items-center gap-1 font-mono text-xs uppercase tracking-wider">
+  {coin.change >= 0 
+    ? <TrendingUp className="w-4 h-4 text-green-400" /> 
+    : <TrendingDown className="w-4 h-4 text-red-400" />
+  }
+  <span className={coin.change >= 0 ? "text-green-400" : "text-red-400"}>
+    {formatChange(coin.change)}
+  </span>
+</div>
+
+
+
+                    
                   </div>
 
                   {/* Price Section */}

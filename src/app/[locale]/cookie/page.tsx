@@ -62,7 +62,7 @@ export default function CookiePage() {
                   <div className="absolute inset-0 bg-gradient-to-r from-orange-500/5 via-amber-500/5 to-yellow-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="relative z-10">
                     <h2 className="text-3xl font-black mb-4 text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-400 flex items-center gap-3 uppercase font-mono">
-                      <span className="text-4xl">🌐</span>
+                      {/* <span className="text-4xl">🌐</span> */}
                       {t("section3.title")}
                     </h2>
                     <p className="text-lg text-slate-300 leading-relaxed font-mono">{t("section3.text")}</p>
@@ -75,7 +75,7 @@ export default function CookiePage() {
                   <div className="absolute inset-0 bg-gradient-to-r from-green-500/5 via-emerald-500/5 to-green-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="relative z-10">
                     <h2 className="text-3xl font-black mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-400 flex items-center gap-3 uppercase font-mono">
-                      <span className="text-4xl">✅</span>
+                      {/* <span className="text-4xl">✅</span> */}
                       {t("section5.title")}
                     </h2>
                     <p className="text-lg text-slate-300 leading-relaxed font-mono">{t("section5.text")}</p>
@@ -91,7 +91,7 @@ export default function CookiePage() {
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl"></div>
                   <div className="relative z-10">
                     <h2 className="text-3xl font-black mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 flex items-center gap-3 uppercase font-mono">
-                      <span className="text-4xl">📊</span>
+                      {/* <span className="text-4xl">📊</span> */}
                       {t("section2.title")}
                     </h2>
                     <div className="space-y-4">
