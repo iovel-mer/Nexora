@@ -12,8 +12,8 @@ const PrivacyPolicyPage = () => {
   return (
     <>
       <Header />
-      <div className="min-h-screen px-8 bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 relative overflow-hidden">
-          <div className='flex justify-start mt-10'>
+      <div className="min-h-screen container mx-auto px-8 bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 relative overflow-hidden">
+          <div className='p-10'>
                 <Link
                   href="/"
                   className='inline-flex items-center px-6 py-3 bg-slate-900/60 backdrop-blur-sm rounded-full border-2 border-orange-400/30 hover:bg-slate-800/60 hover:border-orange-400/50 transition-all duration-300 group text-sm font-mono font-bold text-white shadow-[0_0_20px_rgba(251,146,60,0.2)]'

@@ -2,19 +2,20 @@
 
 import Link from "next/link";
 import { Header } from "../components/Header/Header";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Home, ArrowRight } from 'lucide-react';
 
 const AboutPage = () => {
   const t = useTranslations("about");
+  const locale = useLocale()
 
   return (
     <>
       <Header />
-      <section className="min-h-screen px-8 relative bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 pt-0 overflow-hidden">
-         <div className='flex justify-start mt-10'>
+      <section className="min-h-screen container mx-auto px-8 relative bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900  overflow-hidden">
+         <div className='p-10'>
                 <Link
-                  href="/"
+                  href={`/${locale}`}
                   className='inline-flex items-center px-6 py-3 bg-slate-900/60 backdrop-blur-sm rounded-full border-2 border-orange-400/30 hover:bg-slate-800/60 hover:border-orange-400/50 transition-all duration-300 group text-sm font-mono font-bold text-white shadow-[0_0_20px_rgba(251,146,60,0.2)]'
                 >
                   <Home className='h-4 w-4 mr-2 group-hover:-translate-x-1 transition-transform duration-300 text-orange-400' />

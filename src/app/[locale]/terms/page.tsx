@@ -11,17 +11,11 @@ export default function TermsOfService() {
   return (
     <>
       <Header />
-
-      {/* Subtle grid pattern */}
-      <div className="absolute inset-0 bg-[linear-gradient(rgba(251,146,60,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(251,146,60,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none z-0" />
-
-      <main className="relative min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 text-white px-6 py-20 flex items-center justify-center">
-
-        {/* Top-left "Back to Home" button */}
-        <div className="absolute top-4 sm:top-8 left-4 sm:left-8 z-20 ">
+      <main className="min-h-screen container mx-auto px-8 relative bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900  overflow-hidden">
+        <div className="p-10">
           <Link
             href="/"
-            className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-full border-2 border-orange-400/30 hover:bg-slate-800/60 hover:border-orange-400/50 transition-all duration-300 group text-xs sm:text-sm font-mono font-bold text-white shadow-[0_0_20px_rgba(251,146,60,0.2)]"
+            className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-full border-2 border-orange-400/30  text-xs sm:text-sm font-mono font-bold text-white shadow-[0_0_20px_rgba(251,146,60,0.2)]"
           >
             <Home className="h-4 w-4 mr-2 group-hover:-translate-x-1 transition-transform duration-300 text-orange-400" />
             {t("backToHome")}
@@ -29,6 +23,7 @@ export default function TermsOfService() {
           </Link>
         </div>
 
+      <div className="absolute  inset-0 bg-[linear-gradient(rgba(251,146,60,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(251,146,60,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none z-0" />
         {/* Floating background particles */}
         <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-gradient-conic from-orange-500/15 via-amber-500/15 to-yellow-500/15 rounded-full blur-3xl animate-spin" style={{ animationDuration: '20s' }}></div>
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gradient-conic from-amber-500/10 via-orange-500/10 to-red-500/10 rounded-full blur-3xl animate-spin" style={{ animationDuration: '25s', animationDirection: 'reverse' }}></div>
@@ -37,7 +32,7 @@ export default function TermsOfService() {
         <div className="absolute bottom-32 left-1/3 w-1.5 h-1.5 bg-yellow-400 rounded-full animate-bounce opacity-60" style={{ animationDelay: '1s' }}></div>
 
         {/* Main Content Box */}
-        <div className="relative z-10 max-w-5xl w-full mt-16 bg-slate-900/60 backdrop-blur-xl border-2 border-orange-400/30 rounded-3xl shadow-2xl shadow-orange-500/20 p-8 sm:p-12">
+        <div className=" max-w-5xl mx-auto mt-16 bg-slate-900/60 backdrop-blur-xl border-2 border-orange-400/30 rounded-3xl shadow-2xl shadow-orange-500/20 p-8 sm:p-12">
 
           {/* Title */}
           <h1 className="text-4xl sm:text-5xl font-black mb-10 bg-clip-text text-transparent bg-gradient-to-r from-white via-orange-200 to-amber-200 uppercase font-mono drop-shadow-[0_0_20px_rgba(251,146,60,0.3)]">

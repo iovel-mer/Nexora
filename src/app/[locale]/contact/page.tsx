@@ -32,7 +32,7 @@ const ContactPage = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSuccessMessage("✨ Your message has been sent successfully!");
+    
     setTimeout(() => {
       router.push("/");
     }, 2000);
@@ -68,8 +68,8 @@ const ContactPage = () => {
   return (
     <>
       <Header />
-      <div className="min-h-screen py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 relative overflow-hidden">
-        <div className='flex justify-start mt-6'>
+      <div className="min-h-screen container mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 relative overflow-hidden">
+        <div className='p-10'>
                 <Link
                   href="/"
                   className='inline-flex items-center px-6 py-3 bg-slate-900/60 backdrop-blur-sm rounded-full border-2 border-orange-400/30 hover:bg-slate-800/60 hover:border-orange-400/50 transition-all duration-300 group text-sm font-mono font-bold text-white shadow-[0_0_20px_rgba(251,146,60,0.2)]'
@@ -209,7 +209,7 @@ const ContactPage = () => {
                   </div>
                   <Button
                     type="submit"
-                    className="w-full text-lg font-black bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-orange-500/40 hover:scale-105 rounded-xl h-14 uppercase font-mono tracking-wider"
+                    className="w-full text-lg font-black bg-black text-white transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-orange-500/40 hover:scale-105 rounded-xl h-14 uppercase font-mono tracking-wider"
                   >
                     {t("form.button")}
                   </Button>
