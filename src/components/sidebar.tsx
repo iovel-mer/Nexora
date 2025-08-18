@@ -90,7 +90,7 @@ export function Sidebar({ className }: SidebarProps) {
           href='/dashboard'
           className=' font-semibold'
         >
-          <span className='text-lg'>Nexora</span>
+          <span className='text-lg'>NEXORA</span>
         </Link>
       </div>
      

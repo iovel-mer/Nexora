@@ -66,7 +66,7 @@ export const Hero: React.FC = () => {
   }
 
   return (
-    <section className="min-h-screen container mx-auto bg-slate-950 relative text-white overflow-hidden">
+    <section className="py-40 container mx-auto bg-slate-950 relative text-white overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-br from-orange-900/25 via-slate-950 to-amber-900/25"></div>
