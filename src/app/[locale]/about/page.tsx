@@ -12,7 +12,7 @@ const AboutPage = () => {
   return (
     <>
       <Header />
-      <section className="w-full container mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-8 sm:py-12 md:py-16 lg:py-20 relative bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 overflow-hidden">
+      <section className="w-full  mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-8 sm:py-12 md:py-16 lg:py-20 relative bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 overflow-hidden">
         {/* Background Grid */}
         <div className="absolute inset-0 bg-[linear-gradient(rgba(251,146,60,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(251,146,60,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none" />
 
@@ -25,7 +25,7 @@ const AboutPage = () => {
         <div className="absolute top-20 sm:top-40 right-16 sm:right-32 w-1 h-1 bg-amber-400 rounded-full animate-bounce opacity-60" style={{animationDelay: '0.5s'}}></div>
         <div className="absolute bottom-16 sm:bottom-32 left-1/3 w-1 h-1 sm:w-1.5 sm:h-1.5 bg-yellow-400 rounded-full animate-bounce opacity-60" style={{animationDelay: '1s'}}></div>
 
-        <div className="container mx-auto relative z-10">
+        <div className="  relative z-10">
           {/* Back to Home Button - Fixed Size */}
           <div className="mb-6 sm:mb-8">
             <Link

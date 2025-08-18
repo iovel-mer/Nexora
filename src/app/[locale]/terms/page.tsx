@@ -11,7 +11,7 @@ export default function TermsOfService() {
   return (
     <>
       <Header />
-      <main className="min-h-screen container mx-auto px-8 relative bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900  overflow-hidden">
+      <main className="min-h-screen  mx-auto px-8 relative bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900  overflow-hidden">
         <div className="p-10">
           <Link
               href="/"

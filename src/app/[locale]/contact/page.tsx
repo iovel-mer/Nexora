@@ -68,7 +68,7 @@ const ContactPage = () => {
   return (
     <>
       <Header />
-      <div className="min-h-screen container mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 relative overflow-hidden">
+      <div className="min-h-screen  mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 relative overflow-hidden">
         <div className='p-10'>
                 <Link
               href="/"

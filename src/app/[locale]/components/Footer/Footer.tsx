@@ -35,7 +35,7 @@ export default function Footer() {
 
   return (
    
-  <footer className='py-8 container mx-auto sm:py-10 md:py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-900 via-slate-950 to-orange-900 relative text-white overflow-hidden'>
+  <footer className='py-8  mx-auto sm:py-10 md:py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-900 via-slate-950 to-orange-900 relative text-white overflow-hidden'>
 
     {/* Bitcoin Grid Background */}
     <div className="absolute inset-0 bg-[linear-gradient(rgba(251,146,60,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(251,146,60,0.04)_1px,transparent_1px)] bg-[size:20px_20px] sm:bg-[size:25px_25px] pointer-events-none" />

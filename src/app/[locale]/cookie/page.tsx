@@ -23,7 +23,7 @@ export default function CookiePage() {
         <div className="absolute top-20 sm:top-40 right-16 sm:right-32 w-1 h-1 bg-amber-400 rounded-full animate-bounce opacity-60" style={{animationDelay: '0.5s'}}></div>
         <div className="absolute bottom-16 sm:bottom-32 left-1/3 w-1 h-1 sm:w-1.5 sm:h-1.5 bg-yellow-400 rounded-full animate-bounce opacity-60" style={{animationDelay: '1s'}}></div>
 
-        <div className="container mx-auto relative z-10">
+        <div className=" mx-auto relative z-10">
           {/* Back to Home Button - Fixed Size */}
           <div className="mb-6 sm:mb-8">
             <Link

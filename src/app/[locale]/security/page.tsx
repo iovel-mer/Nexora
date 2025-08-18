@@ -31,7 +31,7 @@ export default function SecurityPage() {
   return (
     <>
       <Header />
-      <main className='min-h-screen container mx-auto bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 text-white relative overflow-hidden'>
+      <main className='min-h-screen  mx-auto bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 text-white relative overflow-hidden'>
         {/* Background Grid */}
         <div className="absolute inset-0 bg-[linear-gradient(rgba(251,146,60,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(251,146,60,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none" />
 
@@ -48,7 +48,7 @@ export default function SecurityPage() {
         <div className="absolute bottom-32 left-1/3 w-1.5 h-1.5 bg-yellow-400 rounded-full animate-bounce opacity-60" style={{animationDelay: '1s'}}></div>
 
         <div className='relative z-10'>
-          <section className='container mx-auto text-center pt-20 pb-16 px-4 md:px-6'>
+          <section className=' text-center pt-20 pb-16 px-4 md:px-6'>
             <div className='animate-fade-in-up'>
               <div className='flex justify-start mb-8'>
                  <Link

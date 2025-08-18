@@ -65,7 +65,7 @@ export const Trading: React.FC = () => {
   ]
 
   return (
-    <section className="relative container mx-auto py-16 px-4 overflow-hidden min-h-screen bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900">
+    <section className="relative  mx-auto py-16 px-4 overflow-hidden min-h-screen bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900">
       {/* Bitcoin-style background pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(251,146,60,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(251,146,60,0.04)_1px,transparent_1px)] bg-[size:20px_20px] pointer-events-none" />
       

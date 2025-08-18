@@ -12,7 +12,7 @@ const PrivacyPolicyPage = () => {
   return (
     <>
       <Header />
-      <div className="min-h-screen container mx-auto px-8 bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 relative overflow-hidden">
+      <div className="min-h-screen  mx-auto px-8 bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 relative overflow-hidden">
           <div className='p-10'>
                  <Link
               href="/"

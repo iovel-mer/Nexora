@@ -33,7 +33,7 @@ const Page = () => {
   return (
     <>
       <Header />
-    <div className="min-h-screen container mx-auto bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 relative">
+    <div className="min-h-screen  mx-auto bg-gradient-to-br from-slate-950 via-slate-900 to-orange-900 relative">
       {/* Background Grid */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(251,146,60,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(251,146,60,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none" />
       
