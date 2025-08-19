@@ -81,7 +81,7 @@ export const Hero: React.FC = () => {
       </div>
 
       <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:px-8 pb-6 sm:pb-10 md:pb-12 lg:pb-16 relative z-10">
-        <div className="grid lg:grid-cols-12 gap-8 sm:gap-12 lg:gap-16 xl:gap-20 2xl:gap-24 items-start lg:items-center min-h-[calc(100vh-4rem)] sm:min-h-[calc(100vh-5rem)] lg:min-h-screen">
+        <div className="grid lg:grid-cols-12 gap-8 sm:gap-12 lg:gap-16 xl:gap-20 2xl:gap-24 items-start lg:items-center py-15">
           {/* Hero Content */}
           <div className="lg:col-span-6 xl:col-span-7 space-y-4 sm:space-y-6 lg:space-y-8 pb-6 sm:pb-10 lg:pb-20 pr-0 lg:pr-6 xl:pr-8 2xl:pr-12">
             {/* Main Headline */}
