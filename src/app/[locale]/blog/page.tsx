@@ -46,8 +46,8 @@ const Page = () => {
       <div className="absolute top-60 right-60 w-1 h-1 bg-amber-400 rounded-full animate-bounce opacity-60" style={{animationDelay: '0.5s'}}></div>
       <div className="absolute bottom-60 left-1/3 w-1.5 h-1.5 bg-yellow-400 rounded-full animate-bounce opacity-60" style={{animationDelay: '1s'}}></div>
 
-      <main className=" py-8 md:py-12 lg:py-16">
-        <div className="p-10">
+      <main className=" py-8 md:py-12  lg:py-16">
+        <div className="p-10 ">
           <Link
               href="/"
               className="inline-flex items-center px-6 py-3 bg-slate-900/60 backdrop-blur-sm rounded-full border-2 border-orange-400/30 hover:bg-slate-800/60 hover:border-orange-400/50 transition-all duration-300 group text-sm font-mono font-bold text-white shadow-[0_0_20px_rgba(251,146,60,0.2)]"
@@ -59,7 +59,7 @@ const Page = () => {
             </Link>
 
           {/* Hero Section */}
-          <div className="text-center mb-12">
+          <div className="text-center mt-30 mb-12">
             <h1 className="text-4xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white via-orange-200 to-amber-200 md:text-5xl lg:text-6xl mb-6 uppercase font-mono drop-shadow-[0_0_30px_rgba(251,146,60,0.4)]">
               {t("title")}
             </h1>

@@ -85,7 +85,7 @@ export default function LoginPage() {
       <div className="flex flex-col lg:flex-row w-full max-w-6xl rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-slate-900/60 to-slate-950/60 backdrop-blur-xl border-2 border-orange-400/30 relative z-10">
         {/* Left Side - Login Form */}
         <div className="flex-1 p-8 lg:p-12 flex flex-col justify-center">
-          <Link href={`/${locale}`} className="inline-flex items-center text-orange-300 hover:text-white transition-colors mb-8 font-mono">
+          <Link href={`/${locale}`} className="inline-flex items-center max-w-[140px] text-orange-300 hover:text-white transition-colors mb-8 font-mono">
             <ArrowLeft className="w-4 h-4 mr-2" />
             {t("backToHome")}
           </Link>
